@@ -1,0 +1,100 @@
+body,h1 {
+    margin: 0 auto;
+}
+
+* {
+    font-size: 10px;
+}
+
+body {
+    background: linear-gradient(to right, #F0F4FF 0%, #A5B6EE 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;;
+}
+
+.logo {
+    display: block;
+    margin: 7.2em auto;
+    width: 24.4em;
+    height: 4.8em;
+}
+
+.timer {
+    position: relative;
+    width: 40em;
+    height: 36em;
+    background: linear-gradient(314.28deg, #304577 0%, #4C65A0 83%);
+    border: 0px;
+    border-radius: 16px;
+    margin: 0 auto;
+    box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+}
+
+h1 {
+    font-size: 2.4em;
+    font-weight: 70em;
+    color: #fff;
+    text-align: center;
+    padding-top: 48px;
+}
+
+
+.components {
+    display: flex;
+    justify-content: center;
+    gap: 2.2em;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.comitem {
+    width: 8em;
+    height: 8em;
+    background: linear-gradient(314.28deg, #304577 0%, #4C65A0 83%);
+    border: 1px solid #354971;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+.comtxt {
+    color: #A5B6EE;
+    font-weight: 70em;
+    font-size: 1.2em;
+}
+
+.num {
+    color: #fff;
+    font-size: 4em;
+    font-weight: 70em;
+    margin-top: 1.6em;
+}
+
+.dot {
+    width: 6px;
+    height: 26px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.btn {
+    width: 112px;
+    height: 48px;
+    background: #324577;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+    border: 0;
+    margin-top: 40px;
+    color: #617199;
+    font-weight: 700;
+    font-size: 1.4em;
+    
+}
+
+.wenivcorp {
+    color: #8596BF;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 1.4em;
+}
